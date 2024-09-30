@@ -1,5 +1,5 @@
-import { handleGetProduct } from "../persistence/localStorage";
-import { handleRenderList } from "../view/store";
+import { handleGetProduct } from "../persistence/localStorage.js";
+import { handleRenderList } from "../view/store.js";
 
 export const handleSearchProductByName = () => {
   const inputHeaderSearch = document.getElementById("inputHeaderSearch");

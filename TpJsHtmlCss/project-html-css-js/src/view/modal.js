@@ -1,7 +1,7 @@
 //------------- PopUp ---------------
 
-import { productoActivo, setProductoActivo } from "../../main";
-import { handleDeleteProduct } from "../service/products";
+import { productoActivo, setProductoActivo } from "../../index.js";
+import { handleDeleteProduct } from "../service/products.js";
 
 //Abrimos el agregador de elemento
 //Dejamos de mostrarlo con cancel

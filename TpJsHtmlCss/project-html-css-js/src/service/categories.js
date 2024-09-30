@@ -1,8 +1,8 @@
 //Render categories
 
-import { categoriaActiva } from "../../main";
-import { handleGetProduct } from "../persistence/localStorage";
-import { handleRenderList } from "../view/store";
+import { categoriaActiva } from "../../index.js";
+import { handleGetProduct } from "../persistence/localStorage.js";
+import { handleRenderList } from "../view/store.js";
 
 const handleFilterByCategorie = (categoria) => {
   const products = handleGetProduct();

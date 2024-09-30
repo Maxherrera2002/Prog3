@@ -1,7 +1,7 @@
-import { renderCategories } from "./src/service/categories";
-import { handleSearchProductByName } from "./src/service/search";
-import { openModal } from "./src/view/modal";
-import { handleGetProductToStore } from "./src/view/store";
+import { renderCategories } from "./src/service/categories.js";
+import { handleSearchProductByName } from "./src/service/search.js";
+import { openModal } from "./src/view/modal.js";
+import { handleGetProductToStore } from "./src/view/store.js";
 import "./style.css";
 
 export let categoriaActiva = null;

@@ -1,7 +1,7 @@
 //------------- Product ---------------
 
 import Swal from "sweetalert2";
-import { productoActivo } from "../../main";
+import { productoActivo } from "../..";
 import { handleGetProduct, setLocalS } from "../persistence/localStorage";
 import { closeModal } from "../view/modal";
 import { handleGetProductToStore, handleRenderList } from "../view/store";
